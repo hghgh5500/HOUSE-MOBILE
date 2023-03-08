@@ -1,0 +1,99 @@
+﻿﻿﻿﻿<!DOCTYPE html>	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css\vendors.c382755577a5dca8d00b.css" rel="stylesheet">
+	<link href="css\app.39fbdb26bf7e78d436b9.css" rel="stylesheet">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+	<script src="js\yii.js"></script>
+	<script src="js\yii.activeForm.js"></script>
+	<script src="js\vendors.9bf9331229b366c84584.js"></script>
+	<script src="js\app.3e103a0025228bb7b775.js"></script>
+<div class="navbar" style="font-family: Bebas NEUE; margin-top: -17px">
+	<div class="container">
+		<div class="navbar__wrapper">
+			<a class="logo-wrap" href="index.htm">
+				<img src="images/photo_2023-03-08_16-00-55.jpg" alt="HOUSE MOBILE">
+			</a>
+			<div class="navbar__links">
+				<a class="navbar__link how-to-start" href="#how-play">
+					<span class="navbar__link-part">Как</span>играть?
+				</a>
+				<a class="navbar__link" href="forum\index.html">Форум</a>
+				<a class="navbar__link" href="donate.html">
+					<span class="navbar__link-part">Пополнить</span>счет
+				</a>
+<!-- 				<a class="navbar__link payment-modal-button" href="#">
+					<span class="navbar__link-part">Пополнить</span>счет
+				</a> -->
+			</div>
+			<div class="navbar__profile">
+				<form action="/login">
+					<button class="btn btn--profile profile-auth-button">
+						<span class="btn__text">Личный кабинет</span>
+					</button>
+				</form>
+			</div>
+			<div class="navbar__mobile">
+				<button class="navbar__mobile-menu" id="mobile-menu-button">
+					<svg class="navbar__mobile-menu-icon">
+						<svg id="bars-regular" viewbox="0 0 448 512">
+							<path d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path>
+						</svg>
+					</svg>
+				</button>
+				<div id="mobile-menu-modal" style="font-family: Bebas NEUE">
+					<a class="navbar__link navbar__link--mobile" href="FORUM">Форум</a>
+					<a class="navbar__link navbar__link--mobile payment-modal-button" href="donate.html">
+					<span class="navbar__link-part">Пополнить</span>счет
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div><style>body{overflow-y: hidden}</style>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css\vendors.c382755577a5dca8d00b.css" rel="stylesheet">
+	<link href="css\app.39fbdb26bf7e78d436b9.css" rel="stylesheet">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+	<script src="js\yii.js"></script>
+	<script src="js\yii.activeForm.js"></script>
+	<script src="js\vendors.9bf9331229b366c84584.js"></script>
+	<script src="js\app.3e103a0025228bb7b775.js"></script>
+<div class="h100 flex-centered">
+	<div class="modal">
+		<div class="modal-wrapper">
+			<div class="modal-title">Пополнение</div>
+			<div class="skew-normalize">
+				<form class="form" action="../freekassa_gta/index.php" onsubmit="return checkForm(this)">
+					<input type="hidden" name="action" value="fk_go">
+					<div class="error-container"></div>
+					<input type="text" class="modal-input" name="account" placeholder="Ваш никнейм" id="account">
+					<div class="error-container"></div>
+					<input type="text" class="modal-input" name="sum" placeholder="Сумма платежа" pattern="^[0-9]+$" id="sum">
+					<div class="error-container"></div>
+					<div class="modal-action">
+						<button class="btn btn--red btn--lg modal-button">Далее</button>
+					</div>
+				</form>
+<script>
+function checkForm(form){
+	if (document.getElementById("account").value == '')	{
+		alert ('Заполните поле - "Ваш никнейм"');
+		return false;
+	}
+	if (document.getElementById("sum").value == '')	{
+		alert ('Заполните поле - "Сумма платежа (руб)"');
+		return false;
+	}}
+</script>
+				<p>Перед оплатой необходимо выйти из игры</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div style="width: 100%; text-align: center;">
+	<a href="//freekassa.ru/">
+		<img src="//www.free-kassa.ru/img/fk_btn/8.png" title="Приём оплаты на сайте картами" style="width: 7%">
+	</a>
+	<br>
+	<h4>Контакты: <a href="https://vk.com/ruqik" style="color: white">Егор</a></h4>
+</div><div class="footer">HOUSE MOBILE RolePlay FOR GTA CRMP</div>
